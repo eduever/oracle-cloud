@@ -1,0 +1,13 @@
+## AT THE ROOT LEVEL 
+Allow group eduever-group to read objectstorage-namespaces in tenancy
+Allow group eduever-group to manage repos in tenancy
+
+# AT THE COMP LEVEL
+Allow group eduever-group to manage functions-family in compartment edu-comp
+Allow group eduever-group to read metrics in compartment edu-comp
+
+Allow group eduever-group to use virtual-network-family in compartment edu-comp
+
+# AT ROOT
+Allow service FaaS to use virtual-network-family in compartment edu-comp
+
